@@ -1,0 +1,15 @@
+﻿upstream,downstream,group,available_m,required_m,margin_m
+IPS,GC,water,4.2,0.405,3.795
+GC,PS,water,4.4,0.506,3.894
+PS,MB,water,4.4,0.508,3.892
+MB,FB,water,4.1,0.456,3.644
+FB,SB,water,4.1,0.505,3.595
+SB,FT,water,4.2,0.51,3.69
+FT,CWT,water,5.2,0.456,4.744
+CWT,PH2,water,1.5,0.515,0.985
+FT,OZG,advanced,2.7,0.509,2.191
+OZG,ACF,advanced,2.6,0.508,2.092
+ACF,CWT,advanced,3.1,0.462,2.638
+SB,STK,sludge,1.7,0.833,0.867
+STK,SDR,sludge,2.4,0.935,1.465
+SDR,SYD,sludge,3.2,0.671,2.529

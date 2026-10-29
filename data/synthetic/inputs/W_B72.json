@@ -1,0 +1,1585 @@
+{
+  "id": "W_B72",
+  "group": "B",
+  "facility_count": 72,
+  "process_family": "slow_sand",
+  "generation_seed": 8619864,
+  "design_flow_m3_day": 10168.851126085774,
+  "data_status": "independent synthetic facility-block cohort, witnessed feasible; no real-plant claim",
+  "process_granularity": "one aggregate treatment block per stage; facility-count scaling includes ancillary blocks, not increasing parallel-cell graph complexity",
+  "facilities": [
+    {
+      "id": "node_000_329",
+      "label": "intake_pump_station",
+      "role": "intake_pump_station",
+      "category": "intake",
+      "safety_level": 1,
+      "length_m": 17.544,
+      "width_m": 13.58,
+      "parameter_source": "frozen capacity/area rule with independent seeded dimensions; synthetic facility block"
+    },
+    {
+      "id": "node_001_743",
+      "label": "screen_house",
+      "role": "screen_house",
+      "category": "intake",
+      "safety_level": 1,
+      "length_m": 11.081,
+      "width_m": 8.592,
+      "parameter_source": "frozen capacity/area rule with independent seeded dimensions; synthetic facility block"
+    },
+    {
+      "id": "node_002_959",
+      "label": "roughing_filter",
+      "role": "roughing_filter",
+      "category": "pretreat",
+      "safety_level": 1,
+      "length_m": 19.601,
+      "width_m": 12.349,
+      "parameter_source": "frozen capacity/area rule with independent seeded dimensions; synthetic facility block"
+    },
+    {
+      "id": "node_003_469",
+      "label": "slow_sand_filter",
+      "role": "slow_sand_filter",
+      "category": "conventional",
+      "safety_level": 1,
+      "length_m": 63.154,
+      "width_m": 36.266,
+      "parameter_source": "frozen capacity/area rule with independent seeded dimensions; synthetic facility block"
+    },
+    {
+      "id": "node_004_790",
+      "label": "uv_reactor_room",
+      "role": "uv_reactor_room",
+      "category": "advanced",
+      "safety_level": 2,
+      "length_m": 4.869,
+      "width_m": 2.465,
+      "parameter_source": "frozen capacity/area rule with independent seeded dimensions; synthetic facility block"
+    },
+    {
+      "id": "node_005_695",
+      "label": "clear_water_reservoir",
+      "role": "clear_water_reservoir",
+      "category": "distribution",
+      "safety_level": 1,
+      "length_m": 22.22,
+      "width_m": 13.646,
+      "parameter_source": "frozen capacity/area rule with independent seeded dimensions; synthetic facility block"
+    },
+    {
+      "id": "node_006_973",
+      "label": "secondary_pump_room",
+      "role": "secondary_pump_room",
+      "category": "distribution",
+      "safety_level": 1,
+      "length_m": 21.948,
+      "width_m": 11.617,
+      "parameter_source": "frozen capacity/area rule with independent seeded dimensions; synthetic facility block"
+    },
+    {
+      "id": "node_007_200",
+      "label": "residuals_thickening_tank",
+      "role": "residuals_thickening_tank",
+      "category": "sludge",
+      "safety_level": 1,
+      "length_m": 18.246,
+      "width_m": 12.254,
+      "parameter_source": "frozen capacity/area rule with independent seeded dimensions; synthetic facility block"
+    },
+    {
+      "id": "node_008_189",
+      "label": "residuals_dewatering_room",
+      "role": "residuals_dewatering_room",
+      "category": "sludge",
+      "safety_level": 1,
+      "length_m": 21.219,
+      "width_m": 13.249,
+      "parameter_source": "frozen capacity/area rule with independent seeded dimensions; synthetic facility block"
+    },
+    {
+      "id": "node_009_419",
+      "label": "dewatered_residuals_storage",
+      "role": "dewatered_residuals_storage",
+      "category": "sludge",
+      "safety_level": 1,
+      "length_m": 16.612,
+      "width_m": 12.037,
+      "parameter_source": "frozen capacity/area rule with independent seeded dimensions; synthetic facility block"
+    },
+    {
+      "id": "node_010_527",
+      "label": "chemical_dosing_room",
+      "role": "chemical_dosing_room",
+      "category": "chemical",
+      "safety_level": 2,
+      "length_m": 18.151,
+      "width_m": 10.533,
+      "parameter_source": "frozen capacity/area rule with independent seeded dimensions; synthetic facility block"
+    },
+    {
+      "id": "node_011_728",
+      "label": "disinfection_chemical_room",
+      "role": "disinfection_chemical_room",
+      "category": "chemical",
+      "safety_level": 3,
+      "length_m": 17.965,
+      "width_m": 13.721,
+      "parameter_source": "frozen capacity/area rule with independent seeded dimensions; synthetic facility block"
+    },
+    {
+      "id": "node_012_507",
+      "label": "chemical_store",
+      "role": "chemical_store",
+      "category": "chemical",
+      "safety_level": 2,
+      "length_m": 21.426,
+      "width_m": 14.299,
+      "parameter_source": "frozen capacity/area rule with independent seeded dimensions; synthetic facility block"
+    },
+    {
+      "id": "node_013_787",
+      "label": "backwash_tank",
+      "role": "backwash_tank",
+      "category": "distribution",
+      "safety_level": 1,
+      "length_m": 22.661,
+      "width_m": 12.223,
+      "parameter_source": "frozen capacity/area rule with independent seeded dimensions; synthetic facility block"
+    },
+    {
+      "id": "node_014_391",
+      "label": "backwash_pump_room",
+      "role": "backwash_pump_room",
+      "category": "distribution",
+      "safety_level": 1,
+      "length_m": 23.676,
+      "width_m": 11.823,
+      "parameter_source": "frozen capacity/area rule with independent seeded dimensions; synthetic facility block"
+    },
+    {
+      "id": "node_015_869",
+      "label": "source_pump_room",
+      "role": "source_pump_room",
+      "category": "intake",
+      "safety_level": 1,
+      "length_m": 19.479,
+      "width_m": 11.42,
+      "parameter_source": "frozen capacity/area rule with independent seeded dimensions; synthetic facility block"
+    },
+    {
+      "id": "node_016_371",
+      "label": "power_distribution_room",
+      "role": "power_distribution_room",
+      "category": "power",
+      "safety_level": 2,
+      "length_m": 18.117,
+      "width_m": 13.398,
+      "parameter_source": "frozen capacity/area rule with independent seeded dimensions; synthetic facility block"
+    },
+    {
+      "id": "node_017_211",
+      "label": "transformer_room",
+      "role": "transformer_room",
+      "category": "power",
+      "safety_level": 3,
+      "length_m": 11.204,
+      "width_m": 6.194,
+      "parameter_source": "frozen capacity/area rule with independent seeded dimensions; synthetic facility block"
+    },
+    {
+      "id": "node_018_140",
+      "label": "control_room",
+      "role": "control_room",
+      "category": "admin",
+      "safety_level": 1,
+      "length_m": 9.862,
+      "width_m": 7.092,
+      "parameter_source": "frozen capacity/area rule with independent seeded dimensions; synthetic facility block"
+    },
+    {
+      "id": "node_019_281",
+      "label": "administration_block",
+      "role": "administration_block",
+      "category": "admin",
+      "safety_level": 1,
+      "length_m": 19.165,
+      "width_m": 10.12,
+      "parameter_source": "frozen capacity/area rule with independent seeded dimensions; synthetic facility block"
+    },
+    {
+      "id": "node_020_129",
+      "label": "gatehouse",
+      "role": "gatehouse",
+      "category": "admin",
+      "safety_level": 1,
+      "length_m": 20.142,
+      "width_m": 14.606,
+      "parameter_source": "frozen capacity/area rule with independent seeded dimensions; synthetic facility block"
+    },
+    {
+      "id": "node_021_765",
+      "label": "laboratory",
+      "role": "laboratory",
+      "category": "admin",
+      "safety_level": 1,
+      "length_m": 12.227,
+      "width_m": 6.55,
+      "parameter_source": "frozen capacity/area rule with independent seeded dimensions; synthetic facility block"
+    },
+    {
+      "id": "node_022_387",
+      "label": "equipment_store",
+      "role": "equipment_store",
+      "category": "auxiliary",
+      "safety_level": 1,
+      "length_m": 19.472,
+      "width_m": 13.52,
+      "parameter_source": "frozen capacity/area rule with independent seeded dimensions; synthetic facility block"
+    },
+    {
+      "id": "node_023_357",
+      "label": "maintenance_workshop",
+      "role": "maintenance_workshop",
+      "category": "auxiliary",
+      "safety_level": 1,
+      "length_m": 13.102,
+      "width_m": 9.856,
+      "parameter_source": "frozen capacity/area rule with independent seeded dimensions; synthetic facility block"
+    },
+    {
+      "id": "node_024_393",
+      "label": "parking_area",
+      "role": "parking_area",
+      "category": "auxiliary",
+      "safety_level": 1,
+      "length_m": 15.796,
+      "width_m": 12.291,
+      "parameter_source": "frozen capacity/area rule with independent seeded dimensions; synthetic facility block"
+    },
+    {
+      "id": "node_025_386",
+      "label": "staff_accommodation",
+      "role": "staff_accommodation",
+      "category": "living",
+      "safety_level": 1,
+      "length_m": 11.751,
+      "width_m": 6.773,
+      "parameter_source": "frozen capacity/area rule with independent seeded dimensions; synthetic facility block"
+    },
+    {
+      "id": "node_026_253",
+      "label": "staff_service_block",
+      "role": "staff_service_block",
+      "category": "living",
+      "safety_level": 1,
+      "length_m": 12.198,
+      "width_m": 6.544,
+      "parameter_source": "frozen capacity/area rule with independent seeded dimensions; synthetic facility block"
+    },
+    {
+      "id": "node_027_746",
+      "label": "sports_ground",
+      "role": "sports_ground",
+      "category": "living",
+      "safety_level": 1,
+      "length_m": 21.019,
+      "width_m": 11.674,
+      "parameter_source": "frozen capacity/area rule with independent seeded dimensions; synthetic facility block"
+    },
+    {
+      "id": "node_028_521",
+      "label": "fire_water_tank",
+      "role": "fire_water_tank",
+      "category": "auxiliary",
+      "safety_level": 1,
+      "length_m": 17.349,
+      "width_m": 10.296,
+      "parameter_source": "frozen capacity/area rule with independent seeded dimensions; synthetic facility block"
+    },
+    {
+      "id": "node_029_709",
+      "label": "fire_pump_room",
+      "role": "fire_pump_room",
+      "category": "auxiliary",
+      "safety_level": 1,
+      "length_m": 13.109,
+      "width_m": 9.795,
+      "parameter_source": "frozen capacity/area rule with independent seeded dimensions; synthetic facility block"
+    },
+    {
+      "id": "node_030_287",
+      "label": "standby_generator_room",
+      "role": "standby_generator_room",
+      "category": "power",
+      "safety_level": 2,
+      "length_m": 24.364,
+      "width_m": 12.436,
+      "parameter_source": "frozen capacity/area rule with independent seeded dimensions; synthetic facility block"
+    },
+    {
+      "id": "node_031_869",
+      "label": "instrument_workshop",
+      "role": "instrument_workshop",
+      "category": "auxiliary",
+      "safety_level": 1,
+      "length_m": 19.378,
+      "width_m": 10.653,
+      "parameter_source": "frozen capacity/area rule with independent seeded dimensions; synthetic facility block"
+    },
+    {
+      "id": "node_032_129",
+      "label": "water_quality_lab",
+      "role": "water_quality_lab",
+      "category": "admin",
+      "safety_level": 1,
+      "length_m": 14.569,
+      "width_m": 9.41,
+      "parameter_source": "frozen capacity/area rule with independent seeded dimensions; synthetic facility block"
+    },
+    {
+      "id": "node_033_161",
+      "label": "metering_room",
+      "role": "metering_room",
+      "category": "distribution",
+      "safety_level": 1,
+      "length_m": 14.482,
+      "width_m": 7.072,
+      "parameter_source": "frozen capacity/area rule with independent seeded dimensions; synthetic facility block"
+    },
+    {
+      "id": "node_034_841",
+      "label": "maintenance_store",
+      "role": "maintenance_store",
+      "category": "auxiliary",
+      "safety_level": 1,
+      "length_m": 12.166,
+      "width_m": 6.83,
+      "parameter_source": "frozen capacity/area rule with independent seeded dimensions; synthetic facility block"
+    },
+    {
+      "id": "node_035_260",
+      "label": "sampling_station",
+      "role": "sampling_station",
+      "category": "admin",
+      "safety_level": 1,
+      "length_m": 21.313,
+      "width_m": 10.369,
+      "parameter_source": "frozen capacity/area rule with independent seeded dimensions; synthetic facility block"
+    },
+    {
+      "id": "node_036_345",
+      "label": "rainwater_pump_room",
+      "role": "rainwater_pump_room",
+      "category": "auxiliary",
+      "safety_level": 1,
+      "length_m": 19.869,
+      "width_m": 10.534,
+      "parameter_source": "frozen capacity/area rule with independent seeded dimensions; synthetic facility block"
+    },
+    {
+      "id": "node_037_389",
+      "label": "security_block",
+      "role": "security_block",
+      "category": "admin",
+      "safety_level": 1,
+      "length_m": 16.668,
+      "width_m": 7.953,
+      "parameter_source": "frozen capacity/area rule with independent seeded dimensions; synthetic facility block"
+    },
+    {
+      "id": "node_038_940",
+      "label": "process_service_building",
+      "role": "process_service_building",
+      "category": "auxiliary",
+      "safety_level": 1,
+      "length_m": 15.987,
+      "width_m": 8.082,
+      "parameter_source": "frozen capacity/area rule with independent seeded dimensions; synthetic facility block"
+    },
+    {
+      "id": "node_039_138",
+      "label": "staff_canteen",
+      "role": "staff_canteen",
+      "category": "living",
+      "safety_level": 1,
+      "length_m": 15.658,
+      "width_m": 7.709,
+      "parameter_source": "frozen capacity/area rule with independent seeded dimensions; synthetic facility block"
+    },
+    {
+      "id": "node_040_923",
+      "label": "chemical_dosing_room",
+      "role": "chemical_dosing_room",
+      "category": "chemical",
+      "safety_level": 2,
+      "length_m": 16.621,
+      "width_m": 11.883,
+      "parameter_source": "frozen capacity/area rule with independent seeded dimensions; synthetic facility block"
+    },
+    {
+      "id": "node_041_258",
+      "label": "disinfection_chemical_room",
+      "role": "disinfection_chemical_room",
+      "category": "chemical",
+      "safety_level": 3,
+      "length_m": 18.284,
+      "width_m": 9.273,
+      "parameter_source": "frozen capacity/area rule with independent seeded dimensions; synthetic facility block"
+    },
+    {
+      "id": "node_042_226",
+      "label": "chemical_store",
+      "role": "chemical_store",
+      "category": "chemical",
+      "safety_level": 2,
+      "length_m": 19.489,
+      "width_m": 11.028,
+      "parameter_source": "frozen capacity/area rule with independent seeded dimensions; synthetic facility block"
+    },
+    {
+      "id": "node_043_514",
+      "label": "backwash_tank",
+      "role": "backwash_tank",
+      "category": "distribution",
+      "safety_level": 1,
+      "length_m": 19.163,
+      "width_m": 10.439,
+      "parameter_source": "frozen capacity/area rule with independent seeded dimensions; synthetic facility block"
+    },
+    {
+      "id": "node_044_737",
+      "label": "backwash_pump_room",
+      "role": "backwash_pump_room",
+      "category": "distribution",
+      "safety_level": 1,
+      "length_m": 20.164,
+      "width_m": 10.06,
+      "parameter_source": "frozen capacity/area rule with independent seeded dimensions; synthetic facility block"
+    },
+    {
+      "id": "node_045_427",
+      "label": "source_pump_room",
+      "role": "source_pump_room",
+      "category": "intake",
+      "safety_level": 1,
+      "length_m": 16.126,
+      "width_m": 8.046,
+      "parameter_source": "frozen capacity/area rule with independent seeded dimensions; synthetic facility block"
+    },
+    {
+      "id": "node_046_855",
+      "label": "power_distribution_room",
+      "role": "power_distribution_room",
+      "category": "power",
+      "safety_level": 2,
+      "length_m": 9.83,
+      "width_m": 4.692,
+      "parameter_source": "frozen capacity/area rule with independent seeded dimensions; synthetic facility block"
+    },
+    {
+      "id": "node_047_971",
+      "label": "transformer_room",
+      "role": "transformer_room",
+      "category": "power",
+      "safety_level": 3,
+      "length_m": 24.918,
+      "width_m": 12.485,
+      "parameter_source": "frozen capacity/area rule with independent seeded dimensions; synthetic facility block"
+    },
+    {
+      "id": "node_048_704",
+      "label": "control_room",
+      "role": "control_room",
+      "category": "admin",
+      "safety_level": 1,
+      "length_m": 14.603,
+      "width_m": 7.056,
+      "parameter_source": "frozen capacity/area rule with independent seeded dimensions; synthetic facility block"
+    },
+    {
+      "id": "node_049_545",
+      "label": "administration_block",
+      "role": "administration_block",
+      "category": "admin",
+      "safety_level": 1,
+      "length_m": 14.456,
+      "width_m": 11.429,
+      "parameter_source": "frozen capacity/area rule with independent seeded dimensions; synthetic facility block"
+    },
+    {
+      "id": "node_050_680",
+      "label": "gatehouse",
+      "role": "gatehouse",
+      "category": "admin",
+      "safety_level": 1,
+      "length_m": 15.324,
+      "width_m": 9.906,
+      "parameter_source": "frozen capacity/area rule with independent seeded dimensions; synthetic facility block"
+    },
+    {
+      "id": "node_051_838",
+      "label": "laboratory",
+      "role": "laboratory",
+      "category": "admin",
+      "safety_level": 1,
+      "length_m": 15.725,
+      "width_m": 9.131,
+      "parameter_source": "frozen capacity/area rule with independent seeded dimensions; synthetic facility block"
+    },
+    {
+      "id": "node_052_205",
+      "label": "equipment_store",
+      "role": "equipment_store",
+      "category": "auxiliary",
+      "safety_level": 1,
+      "length_m": 12.768,
+      "width_m": 9.26,
+      "parameter_source": "frozen capacity/area rule with independent seeded dimensions; synthetic facility block"
+    },
+    {
+      "id": "node_053_310",
+      "label": "maintenance_workshop",
+      "role": "maintenance_workshop",
+      "category": "auxiliary",
+      "safety_level": 1,
+      "length_m": 18.539,
+      "width_m": 11.511,
+      "parameter_source": "frozen capacity/area rule with independent seeded dimensions; synthetic facility block"
+    },
+    {
+      "id": "node_054_782",
+      "label": "parking_area",
+      "role": "parking_area",
+      "category": "auxiliary",
+      "safety_level": 1,
+      "length_m": 14.44,
+      "width_m": 11.392,
+      "parameter_source": "frozen capacity/area rule with independent seeded dimensions; synthetic facility block"
+    },
+    {
+      "id": "node_055_258",
+      "label": "staff_accommodation",
+      "role": "staff_accommodation",
+      "category": "living",
+      "safety_level": 1,
+      "length_m": 13.836,
+      "width_m": 6.633,
+      "parameter_source": "frozen capacity/area rule with independent seeded dimensions; synthetic facility block"
+    },
+    {
+      "id": "node_056_302",
+      "label": "staff_service_block",
+      "role": "staff_service_block",
+      "category": "living",
+      "safety_level": 1,
+      "length_m": 18.735,
+      "width_m": 11.616,
+      "parameter_source": "frozen capacity/area rule with independent seeded dimensions; synthetic facility block"
+    },
+    {
+      "id": "node_057_599",
+      "label": "sports_ground",
+      "role": "sports_ground",
+      "category": "living",
+      "safety_level": 1,
+      "length_m": 14.202,
+      "width_m": 7.432,
+      "parameter_source": "frozen capacity/area rule with independent seeded dimensions; synthetic facility block"
+    },
+    {
+      "id": "node_058_669",
+      "label": "fire_water_tank",
+      "role": "fire_water_tank",
+      "category": "auxiliary",
+      "safety_level": 1,
+      "length_m": 19.407,
+      "width_m": 16.039,
+      "parameter_source": "frozen capacity/area rule with independent seeded dimensions; synthetic facility block"
+    },
+    {
+      "id": "node_059_385",
+      "label": "fire_pump_room",
+      "role": "fire_pump_room",
+      "category": "auxiliary",
+      "safety_level": 1,
+      "length_m": 19.589,
+      "width_m": 10.644,
+      "parameter_source": "frozen capacity/area rule with independent seeded dimensions; synthetic facility block"
+    },
+    {
+      "id": "node_060_365",
+      "label": "standby_generator_room",
+      "role": "standby_generator_room",
+      "category": "power",
+      "safety_level": 2,
+      "length_m": 17.759,
+      "width_m": 14.169,
+      "parameter_source": "frozen capacity/area rule with independent seeded dimensions; synthetic facility block"
+    },
+    {
+      "id": "node_061_985",
+      "label": "instrument_workshop",
+      "role": "instrument_workshop",
+      "category": "auxiliary",
+      "safety_level": 1,
+      "length_m": 19.379,
+      "width_m": 14.47,
+      "parameter_source": "frozen capacity/area rule with independent seeded dimensions; synthetic facility block"
+    },
+    {
+      "id": "node_062_445",
+      "label": "water_quality_lab",
+      "role": "water_quality_lab",
+      "category": "admin",
+      "safety_level": 1,
+      "length_m": 19.135,
+      "width_m": 9.193,
+      "parameter_source": "frozen capacity/area rule with independent seeded dimensions; synthetic facility block"
+    },
+    {
+      "id": "node_063_515",
+      "label": "metering_room",
+      "role": "metering_room",
+      "category": "distribution",
+      "safety_level": 1,
+      "length_m": 11.181,
+      "width_m": 6.277,
+      "parameter_source": "frozen capacity/area rule with independent seeded dimensions; synthetic facility block"
+    },
+    {
+      "id": "node_064_873",
+      "label": "maintenance_store",
+      "role": "maintenance_store",
+      "category": "auxiliary",
+      "safety_level": 1,
+      "length_m": 17.374,
+      "width_m": 9.828,
+      "parameter_source": "frozen capacity/area rule with independent seeded dimensions; synthetic facility block"
+    },
+    {
+      "id": "node_065_960",
+      "label": "sampling_station",
+      "role": "sampling_station",
+      "category": "admin",
+      "safety_level": 1,
+      "length_m": 22.277,
+      "width_m": 12.335,
+      "parameter_source": "frozen capacity/area rule with independent seeded dimensions; synthetic facility block"
+    },
+    {
+      "id": "node_066_830",
+      "label": "rainwater_pump_room",
+      "role": "rainwater_pump_room",
+      "category": "auxiliary",
+      "safety_level": 1,
+      "length_m": 15.868,
+      "width_m": 11.064,
+      "parameter_source": "frozen capacity/area rule with independent seeded dimensions; synthetic facility block"
+    },
+    {
+      "id": "node_067_282",
+      "label": "security_block",
+      "role": "security_block",
+      "category": "admin",
+      "safety_level": 1,
+      "length_m": 19.489,
+      "width_m": 10.951,
+      "parameter_source": "frozen capacity/area rule with independent seeded dimensions; synthetic facility block"
+    },
+    {
+      "id": "node_068_808",
+      "label": "process_service_building",
+      "role": "process_service_building",
+      "category": "auxiliary",
+      "safety_level": 1,
+      "length_m": 13.429,
+      "width_m": 7.802,
+      "parameter_source": "frozen capacity/area rule with independent seeded dimensions; synthetic facility block"
+    },
+    {
+      "id": "node_069_653",
+      "label": "staff_canteen",
+      "role": "staff_canteen",
+      "category": "living",
+      "safety_level": 1,
+      "length_m": 11.369,
+      "width_m": 9.421,
+      "parameter_source": "frozen capacity/area rule with independent seeded dimensions; synthetic facility block"
+    },
+    {
+      "id": "node_070_835",
+      "label": "chemical_dosing_room",
+      "role": "chemical_dosing_room",
+      "category": "chemical",
+      "safety_level": 2,
+      "length_m": 7.904,
+      "width_m": 6.15,
+      "parameter_source": "frozen capacity/area rule with independent seeded dimensions; synthetic facility block"
+    },
+    {
+      "id": "node_071_700",
+      "label": "disinfection_chemical_room",
+      "role": "disinfection_chemical_room",
+      "category": "chemical",
+      "safety_level": 3,
+      "length_m": 7.25,
+      "width_m": 5.68,
+      "parameter_source": "frozen capacity/area rule with independent seeded dimensions; synthetic facility block"
+    }
+  ],
+  "contacts": [
+    {
+      "source": "node_000_329",
+      "target": "node_001_743",
+      "system": "main_water",
+      "adjacency_weight": 15,
+      "target_gap_m": 8.0,
+      "route_class": "main_water"
+    },
+    {
+      "source": "node_001_743",
+      "target": "node_002_959",
+      "system": "main_water",
+      "adjacency_weight": 15,
+      "target_gap_m": 8.0,
+      "route_class": "main_water"
+    },
+    {
+      "source": "node_002_959",
+      "target": "node_003_469",
+      "system": "main_water",
+      "adjacency_weight": 15,
+      "target_gap_m": 8.0,
+      "route_class": "main_water"
+    },
+    {
+      "source": "node_003_469",
+      "target": "node_004_790",
+      "system": "main_water",
+      "adjacency_weight": 15,
+      "target_gap_m": 8.0,
+      "route_class": "advanced_water"
+    },
+    {
+      "source": "node_004_790",
+      "target": "node_005_695",
+      "system": "main_water",
+      "adjacency_weight": 15,
+      "target_gap_m": 8.0,
+      "route_class": "advanced_water"
+    },
+    {
+      "source": "node_005_695",
+      "target": "node_006_973",
+      "system": "main_water",
+      "adjacency_weight": 15,
+      "target_gap_m": 8.0,
+      "route_class": "main_water"
+    },
+    {
+      "source": "node_002_959",
+      "target": "node_007_200",
+      "system": "sludge",
+      "adjacency_weight": 8,
+      "target_gap_m": 15.0,
+      "route_class": "sludge"
+    },
+    {
+      "source": "node_007_200",
+      "target": "node_008_189",
+      "system": "sludge",
+      "adjacency_weight": 8,
+      "target_gap_m": 15.0,
+      "route_class": "sludge"
+    },
+    {
+      "source": "node_008_189",
+      "target": "node_009_419",
+      "system": "sludge",
+      "adjacency_weight": 8,
+      "target_gap_m": 15.0,
+      "route_class": "sludge"
+    },
+    {
+      "source": "node_010_527",
+      "target": "node_002_959",
+      "system": "chemical",
+      "adjacency_weight": 4,
+      "target_gap_m": 15.0
+    },
+    {
+      "source": "node_011_728",
+      "target": "node_002_959",
+      "system": "chemical",
+      "adjacency_weight": 4,
+      "target_gap_m": 15.0
+    },
+    {
+      "source": "node_012_507",
+      "target": "node_002_959",
+      "system": "chemical",
+      "adjacency_weight": 4,
+      "target_gap_m": 15.0
+    },
+    {
+      "source": "node_013_787",
+      "target": "node_005_695",
+      "system": "backwash",
+      "adjacency_weight": 4,
+      "target_gap_m": 15.0
+    },
+    {
+      "source": "node_014_391",
+      "target": "node_005_695",
+      "system": "backwash",
+      "adjacency_weight": 4,
+      "target_gap_m": 15.0
+    },
+    {
+      "source": "node_015_869",
+      "target": "node_010_527",
+      "system": "auxiliary",
+      "adjacency_weight": 4,
+      "target_gap_m": 15.0
+    },
+    {
+      "source": "node_016_371",
+      "target": "node_006_973",
+      "system": "power",
+      "adjacency_weight": 4,
+      "target_gap_m": 15.0
+    },
+    {
+      "source": "node_017_211",
+      "target": "node_006_973",
+      "system": "power",
+      "adjacency_weight": 4,
+      "target_gap_m": 15.0
+    },
+    {
+      "source": "node_018_140",
+      "target": "node_010_527",
+      "system": "auxiliary",
+      "adjacency_weight": 4,
+      "target_gap_m": 15.0
+    },
+    {
+      "source": "node_019_281",
+      "target": "node_010_527",
+      "system": "auxiliary",
+      "adjacency_weight": 4,
+      "target_gap_m": 15.0
+    },
+    {
+      "source": "node_020_129",
+      "target": "node_010_527",
+      "system": "auxiliary",
+      "adjacency_weight": 4,
+      "target_gap_m": 15.0
+    },
+    {
+      "source": "node_021_765",
+      "target": "node_010_527",
+      "system": "auxiliary",
+      "adjacency_weight": 4,
+      "target_gap_m": 15.0
+    },
+    {
+      "source": "node_022_387",
+      "target": "node_010_527",
+      "system": "auxiliary",
+      "adjacency_weight": 4,
+      "target_gap_m": 15.0
+    },
+    {
+      "source": "node_023_357",
+      "target": "node_010_527",
+      "system": "auxiliary",
+      "adjacency_weight": 4,
+      "target_gap_m": 15.0
+    },
+    {
+      "source": "node_024_393",
+      "target": "node_010_527",
+      "system": "auxiliary",
+      "adjacency_weight": 4,
+      "target_gap_m": 15.0
+    },
+    {
+      "source": "node_025_386",
+      "target": "node_010_527",
+      "system": "auxiliary",
+      "adjacency_weight": 4,
+      "target_gap_m": 15.0
+    },
+    {
+      "source": "node_026_253",
+      "target": "node_010_527",
+      "system": "auxiliary",
+      "adjacency_weight": 4,
+      "target_gap_m": 15.0
+    },
+    {
+      "source": "node_027_746",
+      "target": "node_010_527",
+      "system": "auxiliary",
+      "adjacency_weight": 4,
+      "target_gap_m": 15.0
+    },
+    {
+      "source": "node_028_521",
+      "target": "node_010_527",
+      "system": "auxiliary",
+      "adjacency_weight": 4,
+      "target_gap_m": 15.0
+    },
+    {
+      "source": "node_029_709",
+      "target": "node_010_527",
+      "system": "auxiliary",
+      "adjacency_weight": 4,
+      "target_gap_m": 15.0
+    },
+    {
+      "source": "node_030_287",
+      "target": "node_006_973",
+      "system": "power",
+      "adjacency_weight": 4,
+      "target_gap_m": 15.0
+    },
+    {
+      "source": "node_031_869",
+      "target": "node_010_527",
+      "system": "auxiliary",
+      "adjacency_weight": 4,
+      "target_gap_m": 15.0
+    },
+    {
+      "source": "node_032_129",
+      "target": "node_010_527",
+      "system": "auxiliary",
+      "adjacency_weight": 4,
+      "target_gap_m": 15.0
+    },
+    {
+      "source": "node_033_161",
+      "target": "node_005_695",
+      "system": "backwash",
+      "adjacency_weight": 4,
+      "target_gap_m": 15.0
+    },
+    {
+      "source": "node_034_841",
+      "target": "node_010_527",
+      "system": "auxiliary",
+      "adjacency_weight": 4,
+      "target_gap_m": 15.0
+    },
+    {
+      "source": "node_035_260",
+      "target": "node_010_527",
+      "system": "auxiliary",
+      "adjacency_weight": 4,
+      "target_gap_m": 15.0
+    },
+    {
+      "source": "node_036_345",
+      "target": "node_010_527",
+      "system": "auxiliary",
+      "adjacency_weight": 4,
+      "target_gap_m": 15.0
+    },
+    {
+      "source": "node_037_389",
+      "target": "node_010_527",
+      "system": "auxiliary",
+      "adjacency_weight": 4,
+      "target_gap_m": 15.0
+    },
+    {
+      "source": "node_038_940",
+      "target": "node_010_527",
+      "system": "auxiliary",
+      "adjacency_weight": 4,
+      "target_gap_m": 15.0
+    },
+    {
+      "source": "node_039_138",
+      "target": "node_010_527",
+      "system": "auxiliary",
+      "adjacency_weight": 4,
+      "target_gap_m": 15.0
+    },
+    {
+      "source": "node_040_923",
+      "target": "node_002_959",
+      "system": "chemical",
+      "adjacency_weight": 4,
+      "target_gap_m": 15.0
+    },
+    {
+      "source": "node_041_258",
+      "target": "node_002_959",
+      "system": "chemical",
+      "adjacency_weight": 4,
+      "target_gap_m": 15.0
+    },
+    {
+      "source": "node_042_226",
+      "target": "node_002_959",
+      "system": "chemical",
+      "adjacency_weight": 4,
+      "target_gap_m": 15.0
+    },
+    {
+      "source": "node_043_514",
+      "target": "node_005_695",
+      "system": "backwash",
+      "adjacency_weight": 4,
+      "target_gap_m": 15.0
+    },
+    {
+      "source": "node_044_737",
+      "target": "node_005_695",
+      "system": "backwash",
+      "adjacency_weight": 4,
+      "target_gap_m": 15.0
+    },
+    {
+      "source": "node_045_427",
+      "target": "node_010_527",
+      "system": "auxiliary",
+      "adjacency_weight": 4,
+      "target_gap_m": 15.0
+    },
+    {
+      "source": "node_046_855",
+      "target": "node_006_973",
+      "system": "power",
+      "adjacency_weight": 4,
+      "target_gap_m": 15.0
+    },
+    {
+      "source": "node_047_971",
+      "target": "node_006_973",
+      "system": "power",
+      "adjacency_weight": 4,
+      "target_gap_m": 15.0
+    },
+    {
+      "source": "node_048_704",
+      "target": "node_010_527",
+      "system": "auxiliary",
+      "adjacency_weight": 4,
+      "target_gap_m": 15.0
+    },
+    {
+      "source": "node_049_545",
+      "target": "node_010_527",
+      "system": "auxiliary",
+      "adjacency_weight": 4,
+      "target_gap_m": 15.0
+    },
+    {
+      "source": "node_050_680",
+      "target": "node_010_527",
+      "system": "auxiliary",
+      "adjacency_weight": 4,
+      "target_gap_m": 15.0
+    },
+    {
+      "source": "node_051_838",
+      "target": "node_010_527",
+      "system": "auxiliary",
+      "adjacency_weight": 4,
+      "target_gap_m": 15.0
+    },
+    {
+      "source": "node_052_205",
+      "target": "node_010_527",
+      "system": "auxiliary",
+      "adjacency_weight": 4,
+      "target_gap_m": 15.0
+    },
+    {
+      "source": "node_053_310",
+      "target": "node_010_527",
+      "system": "auxiliary",
+      "adjacency_weight": 4,
+      "target_gap_m": 15.0
+    },
+    {
+      "source": "node_054_782",
+      "target": "node_010_527",
+      "system": "auxiliary",
+      "adjacency_weight": 4,
+      "target_gap_m": 15.0
+    },
+    {
+      "source": "node_055_258",
+      "target": "node_010_527",
+      "system": "auxiliary",
+      "adjacency_weight": 4,
+      "target_gap_m": 15.0
+    },
+    {
+      "source": "node_056_302",
+      "target": "node_010_527",
+      "system": "auxiliary",
+      "adjacency_weight": 4,
+      "target_gap_m": 15.0
+    },
+    {
+      "source": "node_057_599",
+      "target": "node_010_527",
+      "system": "auxiliary",
+      "adjacency_weight": 4,
+      "target_gap_m": 15.0
+    },
+    {
+      "source": "node_058_669",
+      "target": "node_010_527",
+      "system": "auxiliary",
+      "adjacency_weight": 4,
+      "target_gap_m": 15.0
+    },
+    {
+      "source": "node_059_385",
+      "target": "node_010_527",
+      "system": "auxiliary",
+      "adjacency_weight": 4,
+      "target_gap_m": 15.0
+    },
+    {
+      "source": "node_060_365",
+      "target": "node_006_973",
+      "system": "power",
+      "adjacency_weight": 4,
+      "target_gap_m": 15.0
+    },
+    {
+      "source": "node_061_985",
+      "target": "node_010_527",
+      "system": "auxiliary",
+      "adjacency_weight": 4,
+      "target_gap_m": 15.0
+    },
+    {
+      "source": "node_062_445",
+      "target": "node_010_527",
+      "system": "auxiliary",
+      "adjacency_weight": 4,
+      "target_gap_m": 15.0
+    },
+    {
+      "source": "node_063_515",
+      "target": "node_005_695",
+      "system": "backwash",
+      "adjacency_weight": 4,
+      "target_gap_m": 15.0
+    },
+    {
+      "source": "node_064_873",
+      "target": "node_010_527",
+      "system": "auxiliary",
+      "adjacency_weight": 4,
+      "target_gap_m": 15.0
+    },
+    {
+      "source": "node_065_960",
+      "target": "node_010_527",
+      "system": "auxiliary",
+      "adjacency_weight": 4,
+      "target_gap_m": 15.0
+    },
+    {
+      "source": "node_066_830",
+      "target": "node_010_527",
+      "system": "auxiliary",
+      "adjacency_weight": 4,
+      "target_gap_m": 15.0
+    },
+    {
+      "source": "node_067_282",
+      "target": "node_010_527",
+      "system": "auxiliary",
+      "adjacency_weight": 4,
+      "target_gap_m": 15.0
+    },
+    {
+      "source": "node_068_808",
+      "target": "node_010_527",
+      "system": "auxiliary",
+      "adjacency_weight": 4,
+      "target_gap_m": 15.0
+    },
+    {
+      "source": "node_069_653",
+      "target": "node_010_527",
+      "system": "auxiliary",
+      "adjacency_weight": 4,
+      "target_gap_m": 15.0
+    },
+    {
+      "source": "node_070_835",
+      "target": "node_002_959",
+      "system": "chemical",
+      "adjacency_weight": 4,
+      "target_gap_m": 15.0
+    },
+    {
+      "source": "node_071_700",
+      "target": "node_002_959",
+      "system": "chemical",
+      "adjacency_weight": 4,
+      "target_gap_m": 15.0
+    }
+  ],
+  "process_edges": [
+    {
+      "source": "node_000_329",
+      "target": "node_001_743",
+      "system": "main_water",
+      "adjacency_weight": 15,
+      "target_gap_m": 8.0,
+      "route_class": "main_water"
+    },
+    {
+      "source": "node_001_743",
+      "target": "node_002_959",
+      "system": "main_water",
+      "adjacency_weight": 15,
+      "target_gap_m": 8.0,
+      "route_class": "main_water"
+    },
+    {
+      "source": "node_002_959",
+      "target": "node_003_469",
+      "system": "main_water",
+      "adjacency_weight": 15,
+      "target_gap_m": 8.0,
+      "route_class": "main_water"
+    },
+    {
+      "source": "node_003_469",
+      "target": "node_004_790",
+      "system": "main_water",
+      "adjacency_weight": 15,
+      "target_gap_m": 8.0,
+      "route_class": "advanced_water"
+    },
+    {
+      "source": "node_004_790",
+      "target": "node_005_695",
+      "system": "main_water",
+      "adjacency_weight": 15,
+      "target_gap_m": 8.0,
+      "route_class": "advanced_water"
+    },
+    {
+      "source": "node_005_695",
+      "target": "node_006_973",
+      "system": "main_water",
+      "adjacency_weight": 15,
+      "target_gap_m": 8.0,
+      "route_class": "main_water"
+    },
+    {
+      "source": "node_002_959",
+      "target": "node_007_200",
+      "system": "sludge",
+      "adjacency_weight": 8,
+      "target_gap_m": 15.0,
+      "route_class": "sludge"
+    },
+    {
+      "source": "node_007_200",
+      "target": "node_008_189",
+      "system": "sludge",
+      "adjacency_weight": 8,
+      "target_gap_m": 15.0,
+      "route_class": "sludge"
+    },
+    {
+      "source": "node_008_189",
+      "target": "node_009_419",
+      "system": "sludge",
+      "adjacency_weight": 8,
+      "target_gap_m": 15.0,
+      "route_class": "sludge"
+    }
+  ],
+  "hydraulic_segments": [
+    {
+      "source": "node_000_329",
+      "target": "node_001_743",
+      "system": "main_water",
+      "adjacency_weight": 15,
+      "target_gap_m": 8.0,
+      "route_class": "main_water",
+      "parameters": [
+        0.001,
+        0.3,
+        0.2,
+        2.0
+      ],
+      "originally_covered": true,
+      "parameter_status": "frozen explicit synthetic assumptions before search"
+    },
+    {
+      "source": "node_001_743",
+      "target": "node_002_959",
+      "system": "main_water",
+      "adjacency_weight": 15,
+      "target_gap_m": 8.0,
+      "route_class": "main_water",
+      "parameters": [
+        0.001,
+        0.3,
+        0.2,
+        2.0
+      ],
+      "originally_covered": true,
+      "parameter_status": "frozen explicit synthetic assumptions before search"
+    },
+    {
+      "source": "node_002_959",
+      "target": "node_003_469",
+      "system": "main_water",
+      "adjacency_weight": 15,
+      "target_gap_m": 8.0,
+      "route_class": "main_water",
+      "parameters": [
+        0.001,
+        0.3,
+        0.2,
+        2.0
+      ],
+      "originally_covered": true,
+      "parameter_status": "frozen explicit synthetic assumptions before search"
+    },
+    {
+      "source": "node_003_469",
+      "target": "node_004_790",
+      "system": "main_water",
+      "adjacency_weight": 15,
+      "target_gap_m": 8.0,
+      "route_class": "advanced_water",
+      "parameters": [
+        0.001,
+        0.3,
+        0.2,
+        2.0
+      ],
+      "originally_covered": true,
+      "parameter_status": "frozen explicit synthetic assumptions before search"
+    },
+    {
+      "source": "node_004_790",
+      "target": "node_005_695",
+      "system": "main_water",
+      "adjacency_weight": 15,
+      "target_gap_m": 8.0,
+      "route_class": "advanced_water",
+      "parameters": [
+        0.001,
+        0.3,
+        0.2,
+        2.0
+      ],
+      "originally_covered": true,
+      "parameter_status": "frozen explicit synthetic assumptions before search"
+    },
+    {
+      "source": "node_005_695",
+      "target": "node_006_973",
+      "system": "main_water",
+      "adjacency_weight": 15,
+      "target_gap_m": 8.0,
+      "route_class": "main_water",
+      "parameters": [
+        0.001,
+        0.3,
+        0.2,
+        2.0
+      ],
+      "originally_covered": true,
+      "parameter_status": "frozen explicit synthetic assumptions before search"
+    },
+    {
+      "source": "node_002_959",
+      "target": "node_007_200",
+      "system": "sludge",
+      "adjacency_weight": 8,
+      "target_gap_m": 15.0,
+      "route_class": "sludge",
+      "parameters": [
+        0.004,
+        0.5,
+        0.3,
+        1.2
+      ],
+      "originally_covered": true,
+      "parameter_status": "frozen explicit synthetic assumptions before search",
+      "source_outlet_elevation_m": 105.712
+    },
+    {
+      "source": "node_007_200",
+      "target": "node_008_189",
+      "system": "sludge",
+      "adjacency_weight": 8,
+      "target_gap_m": 15.0,
+      "route_class": "sludge",
+      "parameters": [
+        0.005,
+        0.6,
+        0.3,
+        1.2
+      ],
+      "originally_covered": true,
+      "parameter_status": "frozen explicit synthetic assumptions before search"
+    },
+    {
+      "source": "node_008_189",
+      "target": "node_009_419",
+      "system": "sludge",
+      "adjacency_weight": 8,
+      "target_gap_m": 15.0,
+      "route_class": "sludge",
+      "parameters": [
+        0.003,
+        0.4,
+        0.25,
+        0.8
+      ],
+      "originally_covered": true,
+      "parameter_status": "frozen explicit synthetic assumptions before search"
+    }
+  ],
+  "elevations": {
+    "node_000_329": {
+      "ground": 110.912,
+      "water_out": 112.012,
+      "water_depth": 3.5,
+      "type": "pump",
+      "source": "explicit synthetic water-level assumption, same segment-balance method as benchmark"
+    },
+    "node_001_743": {
+      "ground": 109.31200000000001,
+      "water_out": 110.412,
+      "water_depth": 3.5,
+      "type": "gravity",
+      "source": "explicit synthetic water-level assumption, same segment-balance method as benchmark"
+    },
+    "node_002_959": {
+      "ground": 107.712,
+      "water_out": 108.812,
+      "water_depth": 3.5,
+      "type": "gravity",
+      "source": "explicit synthetic water-level assumption, same segment-balance method as benchmark"
+    },
+    "node_003_469": {
+      "ground": 106.11200000000001,
+      "water_out": 107.212,
+      "water_depth": 3.5,
+      "type": "gravity",
+      "source": "explicit synthetic water-level assumption, same segment-balance method as benchmark"
+    },
+    "node_004_790": {
+      "ground": 104.512,
+      "water_out": 105.612,
+      "water_depth": 3.5,
+      "type": "gravity",
+      "source": "explicit synthetic water-level assumption, same segment-balance method as benchmark"
+    },
+    "node_005_695": {
+      "ground": 102.912,
+      "water_out": 104.012,
+      "water_depth": 3.5,
+      "type": "gravity",
+      "source": "explicit synthetic water-level assumption, same segment-balance method as benchmark"
+    },
+    "node_006_973": {
+      "ground": 101.31200000000001,
+      "water_out": 102.412,
+      "water_depth": 3.5,
+      "type": "pump",
+      "source": "explicit synthetic water-level assumption, same segment-balance method as benchmark"
+    },
+    "node_007_200": {
+      "ground": 103.912,
+      "water_out": 105.61200000000001,
+      "water_depth": 3.5,
+      "type": "gravity",
+      "source": "explicit synthetic residuals-node level assumption; not measured project elevations"
+    },
+    "node_008_189": {
+      "ground": 102.912,
+      "water_out": 105.31200000000001,
+      "water_depth": 0.0,
+      "type": "gravity",
+      "source": "explicit synthetic residuals-node level assumption; not measured project elevations"
+    },
+    "node_009_419": {
+      "ground": 101.912,
+      "water_out": 101.912,
+      "water_depth": 0.0,
+      "type": "end",
+      "source": "explicit synthetic residuals-node level assumption; not measured project elevations"
+    }
+  },
+  "constraint_versions": {
+    "enhanced": {
+      "safety_matrix": [
+        {
+          "levels": [
+            1,
+            1
+          ],
+          "distance_m": 2.0
+        },
+        {
+          "levels": [
+            1,
+            2
+          ],
+          "distance_m": 3.0
+        },
+        {
+          "levels": [
+            1,
+            3
+          ],
+          "distance_m": 5.0
+        },
+        {
+          "levels": [
+            2,
+            2
+          ],
+          "distance_m": 4.0
+        },
+        {
+          "levels": [
+            2,
+            3
+          ],
+          "distance_m": 6.0
+        },
+        {
+          "levels": [
+            3,
+            3
+          ],
+          "distance_m": 8.0
+        }
+      ],
+      "category_overrides": {},
+      "definition": "baseline safety and soft zoning"
+    }
+  },
+  "constraint_scenario": null,
+  "witness_coordinates_available_to_optimizer": false
+}

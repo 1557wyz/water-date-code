@@ -1,0 +1,115 @@
+{
+  "instance_facilities": 34,
+  "paired_seeds": [
+    1101,
+    1102,
+    1103,
+    1104,
+    1105,
+    1106,
+    1107,
+    1108,
+    1109,
+    1110
+  ],
+  "population": 16,
+  "evaluations_per_run": 1536,
+  "controlled_runs": 40,
+  "archive_points": 809,
+  "archive_points_with_head_shortage": 19,
+  "representative_points_with_head_shortage": 0,
+  "reference_scales": [
+    15000,
+    1000,
+    10000,
+    1
+  ],
+  "hv_reference": [
+    1.4103663207886394,
+    8.5075903,
+    3.554937307431463,
+    1.0
+  ],
+  "hv_reference_sensitivity": [
+    1.5385814408603338,
+    9.2810076,
+    3.8781134262888686,
+    1.0
+  ],
+  "comparisons": [
+    {
+      "label": "GA decoder",
+      "treatment": "ga_rrp",
+      "control": "ga_coordinate_repair",
+      "metric": "score",
+      "mean_difference": 0.5214107588411832,
+      "mean_paired_relative_improvement": -0.1878013815861504,
+      "wins": 1,
+      "p_raw": 0.009765625,
+      "differences": [
+        -0.4127717361271852,
+        0.7374607766495731,
+        0.010947822320828582,
+        0.46435533466044765,
+        0.8895067498362943,
+        0.2569422078337298,
+        0.5906936858557863,
+        0.6254292162930235,
+        1.0051483514816142,
+        1.0463951796077189
+      ],
+      "p_holm": 0.01953125
+    },
+    {
+      "label": "NSGA-II decoder",
+      "treatment": "nsga2_rrp",
+      "control": "nsga2_coordinate_repair",
+      "metric": "hypervolume",
+      "mean_difference": 2.725226998337964,
+      "mean_paired_relative_improvement": 0.3052059924815308,
+      "wins": 10,
+      "p_raw": 0.001953125,
+      "differences": [
+        2.700934680919854,
+        3.016614027223275,
+        3.0848186526286163,
+        2.1061050616000028,
+        4.5337740303354135,
+        1.308981297480809,
+        1.6055924211871702,
+        1.0689998389981348,
+        2.2420211508471954,
+        5.58442882215917
+      ],
+      "p_holm": 0.005859375
+    },
+    {
+      "label": "Action learning",
+      "treatment": "action_q_learning",
+      "control": "action_random",
+      "metric": "score",
+      "mean_difference": 0.2144450683753969,
+      "mean_paired_relative_improvement": -0.07495581740686631,
+      "wins": 2,
+      "p_raw": 0.12109375,
+      "differences": [
+        0.08647550119502645,
+        -0.16768630517346717,
+        0.2198149320711842,
+        -0.6215032727308918,
+        0.7311039724777384,
+        0.20082307030165003,
+        0.5207995497852194,
+        0.6183312132396503,
+        0.13707625108970012,
+        0.41921577149815903
+      ],
+      "p_holm": 0.12109375
+    }
+  ],
+  "reference_rule": "Common data-dependent reference: componentwise max(1, 1.1 x pooled maximum of scaled baseline archives). Sensitivity factor 1.2.",
+  "test_assumption": "paired sign-flip inference assumes exchangeability of within-seed signs under the null; seed replication pertains only to this fixed instance and protocol",
+  "library": "pymoo 0.6.1.6",
+  "coordinate_repair_preferred_coordinate_scale_factor": 0.75,
+  "source_sha256": "7ec995395b3582afb708f4ae80d4913d78396041f9b08230d888cd51451e9f4b"
+}

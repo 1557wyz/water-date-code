@@ -1,0 +1,4 @@
+﻿group,purpose,instances,runs,joint_passed,geometry_passed,adjacency_passed,head_passed,facilities
+A,Process,3,30,30,30,30,30,42/46/49
+B,Scale,51,510,510,510,510,510,30–80
+C,Constraints,3,30,30,30,30,30,41/45/48

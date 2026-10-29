@@ -1,0 +1,8 @@
+case,ids_and_dimensions_preserved,site_difference_m2,facility_outside_site_m2,facility_overlap_m2,facility_road_overlap_m2,facility_reserve_overlap_m2,facility_fixed_overlap_m2,area_partition_error_m2,green_area_error_m2,green_minimum_satisfied,max_facility_to_road_distance_m,head_arithmetic_max_error_m,adjacency_distance_max_error_m
+T,True,0.0,0.0,0,0.0,0.0,0.0,2.9103830456733704e-11,0.0,True,0.0,0,0
+L1,True,0.0,0.0,0,0.0,0.0,0.0,3.637978807091713e-12,0.0,True,0.0,0.0,0.0
+C,True,0.0,0.0,0,0.0,0.0,0.0,5.820766091346741e-11,0.0,True,0.0,0.0,0.0
+B,True,0.0,0.0,0,0.0,0.0,0.0,0.0,0.0,True,0.0,0.0,0.0
+H1,True,0.0,0.0,0,9.371594890095336e-10,0.0,0.0,9.113136911764741e-10,0.0,True,0.0,0.0,0.0
+H2,True,0.0,0.0,0,0.0,0.0,0.0,7.275957614183426e-12,0.0,True,0.0,0.0,0.0
+A,True,0.0,0.0,0,0.0,0.0,0.0,4.547473508864641e-13,0.0,True,0.0,0.0,0.0

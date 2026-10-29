@@ -1,0 +1,15 @@
+﻿path,facility,outlet_elevation_m
+water,IPS,107.5
+water,GC,107.2
+water,PS,106.7
+water,MB,106.4
+water,FB,105.9
+water,SB,105.5
+water,FT,103.5
+water,OZG,102.9
+water,ACF,101.4
+water,CWT,101.0
+sludge,SB,99.5
+sludge,STK,99.2
+sludge,SDR,99.0
+sludge,SYD,95.5

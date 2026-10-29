@@ -1,0 +1,37 @@
+{
+  "main_water": {
+    "detour_factor": 1.08,
+    "terminal_allowance": 4.0,
+    "weight": 3.0
+  },
+  "advanced_water": {
+    "detour_factor": 1.1,
+    "terminal_allowance": 4.0,
+    "weight": 2.4
+  },
+  "sludge": {
+    "detour_factor": 1.18,
+    "terminal_allowance": 5.0,
+    "weight": 2.2
+  },
+  "backwash": {
+    "detour_factor": 1.15,
+    "terminal_allowance": 3.0,
+    "weight": 1.5
+  },
+  "chemical": {
+    "detour_factor": 1.25,
+    "terminal_allowance": 2.5,
+    "weight": 2.0
+  },
+  "power": {
+    "detour_factor": 1.12,
+    "terminal_allowance": 2.0,
+    "weight": 1.0
+  },
+  "default": {
+    "detour_factor": 1.15,
+    "terminal_allowance": 3.0,
+    "weight": 1.0
+  }
+}

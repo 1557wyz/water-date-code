@@ -1,0 +1,35 @@
+﻿code,name_en,name_cn,zone,display_group
+ACF,Activated carbon filter,活性炭滤池,advanced,advanced
+BWT,Backwash-water tank,反冲洗水池,distribution,distribution
+CDR,Chemical dosing room,加药间,chemical,chemical
+CLS,Chlorination room,加氯间,chemical,chemical
+CR,Control room,中控室,admin,other
+CST,Chemical store,药剂仓库,chemical,chemical
+CWT,Clear-water tank,清水池,distribution,distribution
+DM1,Dormitory 1,宿舍楼1,living,other
+DM2,Dormitory 2,宿舍楼2,living,other
+DM3,Dormitory 3,宿舍楼3,living,other
+DM4,Dormitory 4,宿舍楼4,living,other
+FB,Flocculation basin,絮凝池,conventional,water
+FT,Filter,滤池,conventional,water
+GC,Grid chamber,格栅间,intake,water
+GT,Gatehouse,门卫室,admin,other
+IPS,Intake pumping station,取水泵站,intake,water
+LAB,Laboratory,化验室,admin,other
+MB,Mixing basin,混凝池,conventional,water
+MW,Maintenance workshop,维修车间,auxiliary,other
+OF,Administration building,综合办公楼,admin,other
+OZG,Ozone contact tank,臭氧接触池,advanced,advanced
+OZR,Ozone generation room,臭氧发生间,advanced,advanced
+PDR,Power distribution room,配电室,power,power
+PH1,Primary pumping station,一级泵房,distribution,distribution
+PH2,Secondary pumping station,二级泵房,distribution,distribution
+PK,Parking,停车场,auxiliary,other
+PS,Pre-sedimentation basin,预沉池,pretreat,water
+SB,Sedimentation basin,沉淀池,conventional,water
+SDR,Sludge dewatering room,污泥脱水机房,sludge,sludge
+SPF,Sports field,运动场,living,other
+STK,Sludge thickener,污泥浓缩池,sludge,sludge
+SYD,Sludge yard,污泥堆场,sludge,sludge
+TRF,Transformer room,变压器室,power,power
+WH,Warehouse,综合仓库,auxiliary,other

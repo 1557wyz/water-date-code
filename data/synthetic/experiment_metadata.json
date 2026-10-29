@@ -1,0 +1,33 @@
+{
+  "primary_instances": 57,
+  "primary_runs": 570,
+  "runs_per_instance": 10,
+  "paired_baseline_runs": 30,
+  "scale_instances": 51,
+  "scale_runs": 510,
+  "primary_segment_checks": 5670,
+  "minimum_head_margin_m": 0.6009021675237489,
+  "renaming_controls": 57,
+  "identical_renaming_controls": 57,
+  "cohort_scope": "new cohort facility count 30..80, one aggregate treatment block per stage; count growth includes ancillary facilities, not increased cell-level parallel graph complexity",
+  "hard_acceptance": "all safety/rotation/dimension/coverage checks + all declared main/advanced/sludge gaps + all their head margins; ancillary adjacency excluded",
+  "search": "phase 1 coordinate/orientation GA plus simultaneous geometric repair and feasible-only compaction; phase 2 original AdvancedGA six-island GA/DE/SA/RL optimizing actual RRP ancillary fill around the independently generated core; feasibility-first selection",
+  "population_stage_1": 24,
+  "generations_per_stage_1": 120,
+  "repair_steps_per_call": 2000,
+  "max_primary_stage_1_attempts": 3,
+  "population_stage_2": 36,
+  "generations_stage_2": 24,
+  "quantile_method": "linear, numpy.quantile",
+  "statistical_inference": "descriptive, no new significance tests",
+  "constraint_definitions": {
+    "W_C41": "Add 2 m separation when at least one safety level is >=2, with the existing category adjustment retained.",
+    "W_C45": "Apply max(4 m, baseline separation matrix), with the existing category adjustment retained.",
+    "W_C48": "Retain functional categories versus merging conventional/advanced treatment categories in the baseline; soft compactness evaluation, not fixed zoning polygons."
+  },
+  "source_sha256": {
+    "per_run.csv": "a64bc12be0ac3d0de4f3be5d0a137db8071f5f29b1a35116470fa9e19a14a931",
+    "constraint_pairs.csv": "cd75407bce521cc61eecb8d7af0127d6925f2cec062f43b8525635b0ec6cba07",
+    "hydraulic_segments.csv": "49dbeec2521e84d1072a4470b72b5a831b7eda1c8c454c70203b57effb61029a"
+  }
+}
